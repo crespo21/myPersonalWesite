@@ -382,14 +382,7 @@ like to work with me or even suggest or ask questions can leave a mail*/
       width: 100%;
   }
   /* The Welcome sections(Home) */
-    .handShakes{
-      color: #F9F871;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 120px;
-      width: 10%;
-    }
+   
     .welcomeHeading{
       color: rgb(224, 219, 216);
       font-size: 2.8em;
@@ -407,7 +400,7 @@ like to work with me or even suggest or ask questions can leave a mail*/
     /* skills pagesats here displaying 8 icons in a grid fromat*/ 
 
     .skillsHeading{
-      margin-top: 363px;
+      margin-top: 463px;
       text-align: center;
       color: #000000;
       font-weight: lighter;
