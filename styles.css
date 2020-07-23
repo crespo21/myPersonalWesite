@@ -621,106 +621,91 @@ class is an image where i combined with the fadedbox to be one  */
   }
   }
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(30, 1fr);
-        grid-template-rows: repeat(30, 1fr);
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
     }
     .header{
-        background-color: rgb(2, 2, 51);
-        background-size: cover;
-        grid-column: 1 / -1;
-        grid-row: 1 / 4;
-        overflow: hidden;
+      background-color: rgb(2, 2, 51);
+      background-size: cover;
+      grid-column: 1 / -1;
+      grid-row: 1 / 4;
+      overflow: hidden;
     }
-       /* Inside hearder of grid there's a topNavigation bar */
+    /* Inside hearder of grid there's a topNavigation bar */
   
-      .topnav {
-        margin-top: 20px;;
-        overflow: hidden;
-        color: #333;
-        font-size: medium;
-      }
+    .topnav {
+      margin-top: 20px;;
+      overflow: hidden;
+      color: #333;
+      font-size: medium;
+    }
       
-      .topnav a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 1px 18px;
-        text-decoration: none;
-        font-size: 1.4em;
-      }
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 1px 18px;
+      text-decoration: none;
+      font-size: 1.7em;
+    }
       
-      .topnav a:hover {
-        background-color: #E57B89;
-        color: black;
-      }
+    .topnav a:hover {
+      background-color: #E57B89;
+      color: black;
+    }
       
-      .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
-      }
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
       
-      .topnav .icon {
-        display: none;
-      }
-  /* topNavigation bar endes here */
+    .topnav .icon {
+      display: none;
+    }
   
-     /* Inside content there's a home page Welcoming the user and itroducing myself,
-  There's also the Skills page displaying all my skill sets,
-  A page cdisplaying the projects/portfolio i done have so far 
-  The about page page whereby when you click there's a text about myself displayed 
-  The contact page where by employers or just anybody who would 
-  like to work with me or even suggest or ask questions can leave a mail*/ 
-  
-  /* Home page  divElement starts here */
+   /* Home page  divElement starts here */
     .content{
-        background:url('./img/imgs/crespomobile.png');
-        background-size:cover;
-        grid-column: 1 / -1;
-        grid-row: 4/30;
-        grid-row-gap: 3px;
-        background-position: center; 
-        height: 125vh; 
-        width: 100%;
+      background:url('./img/imgs/crespomobile.png');
+      background-size:cover;
+      grid-column: 1 / -1;
+      grid-row: 4/30;
+      grid-row-gap: 3px;
+      background-position: center; 
+      height: 125vh; 
+      width: 100%;
     }
-   
-  
       /* skills pagesats here displaying 8 icons in a grid fromat*/ 
-      
-      .skillsHeading{
-        margin-top: 1863px;
-        text-align: center;
-        color: #000000;
-        font-weight: lighter;
-        font-size: 2.8em;
-      }
-      .iconsDisplayingSkills{
-        text-align: center;
-        color: #000000;
-        font-size: medium;
-        font-weight: lighter;
-        margin-top: 35px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 2.3px;
-        line-height: 100px;
-      }
-      .iconsDisplayingSkills img{
-        width:55px;
-      }
-  
+    .skillsHeading{
+      margin-top: 1863px;
+      text-align: center;
+      color: #000000;
+      font-weight: lighter;
+      font-size: 3.8em;
+    }
+    .iconsDisplayingSkills{
+      text-align: center;
+      color: #000000;
+      font-size: 24px;
+      margin-top: 35px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 2.3px;
+      line-height: 100px;
+    }
+    .iconsDisplayingSkills img{
+      width:55px;
+    }
     /* Skills page ends here */
-  
-    /* Here we styling  the project page */
      
     /* Projects Page */
     #projects{
-      margin-top: 600px;
+      margin-top: 180px;
       height: 160vh;
     }
 
@@ -729,205 +714,197 @@ class is an image where i combined with the fadedbox to be one  */
       text-align: center;
       color: black;
       font-weight: lighter;
-      font-size: 2.8em;
+      font-size: 3.8em;
     }
     .MUB{
       text-align: center;
+      font-size: 1.8em;
     }
       /* The project page ends here */
   
-  /* The about page starts here, the "aboutTshepoSeleke" 
-  class is an image where i combined with the fadedbox to be one  */
-      .aboutPage{
-        margin-top: -1053px;
-        text-align: center;
-        color: #000000;
-        line-height: 20px;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        width: 100%;
-      }
+     /* The about page starts here*/
+    .aboutPage{
+      margin-top: -1453px;
+      text-align: center;
+      color: #000000;
+      line-height: 20px;
+      font-weight: bold;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      width: 100%;
+    }
      
    .aboutMeHeading{
-        margin-bottom: -18px;
-        grid-column: 2 / 2;
-        text-align: center;
-        color: #000000;
-        font-weight: lighter;
-        font-size: 2.8em;
-      
-      }
-      .fewFactsAboutMe{
-        grid-column: 2 / 2;
-        margin-top: 180px;
-        font-stretch: ultra-condensed; 
-        font-weight:lighter; 
-        font-size: 1.2em;
-        text-align: center;
-        z-index: -1;
+      margin-bottom: -18px;
+      grid-column: 2 / 2;
+      text-align: center;
+      color: #000000;
+      font-weight: lighter;
+      font-size: 3.8em;
+    }
+    .fewFactsAboutMe{
+      grid-column: 2 / 2;
+      margin-top: 180px;
+      font-stretch: ultra-condensed; 
+      font-weight:lighter; 
+      font-size: 24px;
+      text-align: center;
+       z-index: -1;
       }
     
-      .aboutTshepoSeleke {
-        cursor: pointer;
-        height: 150px;
-        position: relative;
-        width: 160px;
-        text-align:center;
-        clear: both;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 11px;
+    .aboutTshepoSeleke {
+      cursor: pointer;
+      height: 150px;
+      position: relative;
+      width: 160px;
+      text-align:center;
+      clear: both;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 11px;
        
-        }
-        .aboutTshepoSeleke img{
-        width: 214px;
-        height: 200px;
-        }
+    }
+    .aboutTshepoSeleke img{
+      width: 214px;
+      height: 200px;
+    }
     
-     .aboutTshepoSeleke .fadedbox {
-        background-color: black;
-        position: absolute;
-        top: 0;
-        left: 0;
-        color: #E2B659;
-        -webkit-transition: all 300ms ease-out;
-        -moz-transition: all 300ms ease-out;
-        -o-transition: all 300ms ease-out;
-        -ms-transition: all 300ms ease-out;
-        transition: all 300ms ease-out;
-        opacity: 0;
-        width:220px;
-        height: 205px;
-        font-size: 12px;
-        font-family: Mulish;
-        line-height: 15px;
-      }
-      .aboutTshepoSeleke:hover .fadedbox { opacity: 0.8; }
-      .aboutTshepoSeleke .text {
-        -webkit-transition: all 300ms ease-out;
-        -moz-transition: all 300ms ease-out;
-        -o-transition: all 300ms ease-out;
-        -ms-transition: all 300ms ease-out;
-        transition: all 300ms ease-out;
-        transform: translateY(30px);
-        -webkit-transform: translateY(30px);
-      }
-      .aboutTshepoSeleke .title {
-        font-size: 0.5em;
-        opacity: 0;
-        transition-delay: 0.2s;
-        transition-duration: 0.3s;
-        }
-        .aboutTshepoSeleke:hover .title,
-        .aboutTshepoSeleke:focus .title {
-        opacity: 1;
-        transform: translateY(0px);
-        -webkit-transform: translateY(0px);
-         width:10%;
-         color: whitesmoke;
-         text-align: center;
-         font-weight: bolder;
-        }
-            /* The about page ends here */
+    .aboutTshepoSeleke .fadedbox {
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #E2B659;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width:220px;
+      height: 205px;
+      font-size: 12px;
+      font-family: Mulish;
+      line-height: 15px;
+    }
+    .aboutTshepoSeleke:hover .fadedbox { opacity: 0.8; }
+    .aboutTshepoSeleke .text {
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      transform: translateY(30px);
+      -webkit-transform: translateY(30px);
+    }
+    .aboutTshepoSeleke .title {
+      font-size: 0.5em;
+      opacity: 0;
+      transition-delay: 0.2s;
+      transition-duration: 0.3s;
+    }
+    .aboutTshepoSeleke:hover .title,
+    .aboutTshepoSeleke:focus .title {
+      opacity: 1;
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      width:10%;
+      color: whitesmoke;
+      text-align: center;
+      font-weight: bolder;
+    }
+    /* The about page ends here */
   
       /* The conatct paage stats here , 
       contactStatementBeforeTheForm" is a question i used for call to action */
-      .contact{
-        margin-bottom: 80px;
-        /* color: #000000; */
-        line-height: 33px;
-        font-weight: bold;
+    .contact{
+      margin-bottom: -480px;
+      line-height: 33px;
+      font-weight: bold;  
+      text-align: center;
+      width: 100%;
+      height: 115vh;
+    }
+    .contactHeading{
+      text-align: center;
+      font-weight: lighter;
+      font-size: 3.8em;
+    }
+    .contactStetementBefroreTheform{
+      margin-top:20px;
+      font-weight: lighter; 
+      font-size: medium; 
+      font-size: 1.3em;
+      text-align: center; 
+    }
         
-        text-align: center;
-        width: 100%;
-        height: 115vh;
-        }
-      .contactHeading{
-        text-align: center;
-        font-weight: lighter;
-        font-size: 3.8em;
-        }
-      .contactStetementBefroreTheform{
-        margin-top:20px;
-        font-weight: lighter; 
-        font-size: medium; 
-        font-size: 1.3em;
-        text-align: center; 
-        }
-        
-      input[type=text], select, textarea {
-        width: 70%;
-        padding: 12px;
-        border: 1px solid #000000;
-        border-radius: 4px;
-        resize: vertical;
-        }
-      label {
-        padding: 12px 12px 12px 0;
-        display: inline-block;
-        color: black;
+    input[type=text], select, textarea {
+      width: 70%;
+      padding: 12px;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      color: black;
+    }
   
-        }
-  
-      input[type=submit] {
-        background-color: #4CAF50;
-        color: whitesmoke;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: center;
-  }
-  
-      input[type=submit]:hover {
-        background-color: #45a049;
-      }
-  
-       
-      input[type=reset] {
-        background-color: #4CAF50;
-        color: whitesmoke;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: center;
-      }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: whitesmoke;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: center;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }  
+    input[type=reset] {
+      background-color: #4CAF50;
+      color: whitesmoke;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: center;
+    }
       
-      input[type=reset]:hover {
-        background-color: #45a049;
-      }
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+    input[type=reset]:hover {
+      background-color: #45a049;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
     /* The contact page endes */
   
-  
-        /* Thefooter starts here also included in the grig of this webpage */
+    /* Thefooter starts here also included in the grig of this webpage */
     .footer{
-        /* margin-top: -20px; */
-        background-color:  rgb(2, 2, 51);
-        color: #FFE6D6;
-        grid-column: 1 / -1;
-        grid-row: 30 / -1;
-        text-decoration: none;
-        font-size: medium;
-        font-weight: lighter;
-        font-stretch: ultra-condensed;
-        text-align: center;
-        width: 100%;
-        height: 44vh;
+      background-color:  rgb(2, 2, 51);
+      color: #FFE6D6;
+      grid-column: 1 / -1;
+      grid-row: 30 / -1;
+      text-decoration: none;
+      font-size: medium;
+      font-weight: lighter;
+      font-stretch: ultra-condensed;
+      text-align: center;
+      width: 100%;
+      height: 44vh;
     }
-  }
+}
 
   /* The laptop mode */
-@media screen and (min-width: 1440px) {
 
+@media screen and (min-width: 1440px) {
+  
   .grid{
     display: grid;
     grid-template-columns: repeat(30, 1fr);
@@ -1000,7 +977,7 @@ class is an image where i combined with the fadedbox to be one  */
       text-align: center;
       color: #000000;
       font-weight: lighter;
-      font-size: 4.8em;
+      font-size: 3.8em;
     }
     .iconsDisplayingSkills{
       text-align: center;
@@ -1024,26 +1001,26 @@ class is an image where i combined with the fadedbox to be one  */
      
     /* Projects Page */
     #projects{
-      margin-top: 600px;
-      height: 130vh;
+      margin-top: 400px;
+      height: 70vh;
     }
     .projectsHeading{
       margin-top: 400px;
       text-align: center;
       color: black;
       font-weight: lighter;
-      font-size: 4.8em;
+      font-size: 3.8em;
     }
     .MUB{
       text-align: center;
-      font-size: 2.8em;
+      font-size:1.2em;
     }
       /* The project page ends here */
   
   /* The about page starts here, the "aboutTshepoSeleke" 
   class is an image where i combined with the fadedbox to be one  */
     .aboutPage{
-      margin-top: -853px;
+      margin-top: -353px;
       text-align: center;
       color: #000000;
       line-height: 20px;
@@ -1052,20 +1029,24 @@ class is an image where i combined with the fadedbox to be one  */
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(1, 1fr);
       width: 100%;
+      
     }
      
    .aboutMeHeading{
-      margin-bottom: -18px;
       grid-column: 2 / 2;
       text-align: center;
       color: #000000;
       font-weight: lighter;
-      font-size: 4.8em;
+      font-size: 3.8em;
     }
     .fewFactsAboutMe{
       grid-column: 2 / 2;
-      font-size: 2.8em;
-      width: 120%;
+      margin-left: 180px;
+      font-stretch: ultra-expanded; 
+      font-weight:lighter; 
+      font-size: 2em;
+      text-align: center;
+       z-index: -1;
     }
     
     .aboutTshepoSeleke {
@@ -1134,23 +1115,23 @@ class is an image where i combined with the fadedbox to be one  */
       /* The conatct paage stats here , 
       contactStatementBeforeTheForm" is a question i used for call to action */
     .contact{
-      margin-bottom: -280px;
+      margin-top: 380px;
       line-height: 33px;
       font-weight: lighter;
       text-align: center;
       width: 100%;
-      height: 115vh;
+      min-height: 100%;
     }
     .contactHeading{
       text-align: center;
       font-weight: lighter;
-      font-size: 2.8em;
+      font-size: 3.8em;
+      margin-bottom: 150px;
     }
     .contactStetementBefroreTheform{
-      margin-top:20px;
-      font-weight: lighter; 
-      font-size: medium; 
-      font-size: 1.3em;
+      margin-top: -20px;
+      font-weight: lighter;  
+      font-size: 20px;
       text-align: center; 
     }
         
@@ -1165,8 +1146,11 @@ class is an image where i combined with the fadedbox to be one  */
       padding: 12px 12px 12px 0;
       display: inline-block;
       color: black;
+      font-size: 1.8em;
     }
-  
+    .pdfDocuments{
+      font-size: 1.8em;
+    }
     input[type=submit] {
       background-color: #4CAF50;
       color: whitesmoke;
@@ -1208,331 +1192,17 @@ class is an image where i combined with the fadedbox to be one  */
       grid-column: 1 / -1;
       grid-row: 30 / -1;
       text-decoration: none;
-      font-size: medium;
+      font-size: 1.8em;
       font-weight: lighter;
       font-stretch: ultra-condensed;
       text-align: center;
       width: 100%;
-      height: 44vh;
+      height: 50vh;
+      margin-bottom: 0;
+    }
+    .footerIcons{
+     letter-spacing: 10px;
     }
   }
- 
- /* The Desktop mode */
- @media screen and (min-width: 2560px) {
-  body {
-    margin: 0;
-    font-family: 'Comic Neue', cursive;
-    height: 100vh;
 
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(40, 1fr);
-}
-.header{
-    background-color: #E89965;
-    background-size: cover;
-    grid-column: 1 / -1;
-    grid-row: 1 / 4;
-    overflow: hidden;
-}
-   /* Inside hearder of grid there's a topNavigation bar */
-
-  .topnav {
-    margin-top: 20px;;
-    overflow: hidden;
-    color: #333;
-    font-size: medium;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 50px 78px;
-    text-decoration: none;
-    font-size: 5.1em;
-  }
-  
-  .topnav a:hover {
-    background-color: #E57B89;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-/* topNavigation bar endes here */
-
- /* Inside content there's a home page Welcoming the user and itroducing myself,
-There's also the Skills page displaying all my skill sets,
-A page cdisplaying the projects/portfolio i done have so far 
-The about page page whereby when you click there's a text about myself displayed 
-The contact page where by employers or just anybody who would 
-like to work with me or even suggest or ask questions can leave a mail*/ 
-
-/* Home page  divElement starts here */
-.content{
-    background-size:cover;
-    grid-column: 1 / -1;
-    grid-row: 4/40;
-    grid-row-gap: 3px;
-    background-size: cover;width: 100%; 
-    background-position: center; 
-    height: 125vh; 
-    width: 100%;
-}
-/* The Welcome sections(Home) */
-  .handShakes{
-    color: #F9F871;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 320px;
-    width: 15%;
-  }
-  .welcomeHeading{
-    color: rgb(224, 219, 216);
-    font-size: 8.8em;
-    text-align: center;
-    font-weight: lighter;
-   }
-  .tshepoLesleySelekeHeading{
-    color: #FFE6D6;
-    font-size: 8.8em;
-    text-align: center;
-    font-weight: lighter;
-  }
-   /*  Home page  divElement ends here */
-
-  /* skills pagesats here displaying 8 icons in a grid fromat*/ 
-
-  .skillsHeading{
-    margin-top: 1003px;
-    text-align: center;
-    color: #FFE6D6;
-    font-weight: lighter;
-    font-size: 8.8em;
-  }
-  .iconsDisplayingSkills{
-    text-align: center;
-    color: #FFE6D6;
-    font-size: 3.3em;
-    font-weight: lighter;
-    margin-top: 65px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 2.3px;
-    line-height: 160px;
-  }
-  .iconsDisplayingSkills img{
-    width:298px;
-  }
-
-/* Skills page ends here */
-
-/* Here we styling  the project page */
- 
-/* Projects Page */
-  .projectsHeading{
-    margin-top: -100px;
-    text-align: center;
-    color: #FFE6D6;
-    font-weight: lighter;
-    line-height: 100px;
-    font-size: 7.8em
-  }
-  .userResearchInterviews{
-    font-size: 4.6em;
-    font-weight: lighter;
-    color: #FFE6D6;
-    text-align: center;
-  }.presentationDocument{
-    font-size: 4.6em;
-    font-weight: lighter;
-    color: #FFE6D6;
-    text-align: center;
-  }
-  .iconsDiplayingProjects{
-    margin-top:-300px;
-    display: block;
-    overflow: hidden;
-    grid-gap: 2.3px;
-    text-align: center;
-    color: #FFE6D6;
-    font-weight: lighter;
-  }
-  .interviewIcon{
-    grid-template-columns: 1/-1 ;
-    font-stretch:ultra-condensed;
-    color:#FFE6D6;
-    
-  }
-  /* The project page ends here */
-
-/* The about page starts here, the "aboutTshepoSeleke" 
-class is an image where i combined with the fadedbox to be one  */
-  .aboutPage{
-    text-align: center;
-    margin-top: -301px;
-    color: #FFE6D6;
-    line-height: 33px;
-    font-weight: lighter;
-  }
-  .aboutMeHeading{
-    font-size: 7.8em;
-    margin-top: 300px;
-    color: #FFE6D6;
-    font-weight: lighter;
-  }
-  .fewFactsAboutMe{
-    font-stretch: ultra-condensed; 
-    font-weight:lighter; 
-    font-size: 3.6em;
-  }
-
-  .aboutTshepoSeleke {
-    cursor: pointer;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    width: 660px;
-    height: 710px;
-    text-align:center;
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    .aboutTshepoSeleke img{
-      width: 675px;
-      height: 700px;
-    }
-
- .aboutTshepoSeleke .fadedbox {
-    background-color: #000000e5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    opacity: 0;
-    width: 100%;
-    height:100%;
-    /* line-height: 19px; */
-    font: 2.3em sans-serif;
-
-  }
-    .aboutTshepoSeleke:hover .fadedbox { opacity: 0.8; }
-  .aboutTshepoSeleke .titletext {
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    transform: translateY(30px);
-    -webkit-transform: translateY(30px);
-    color: #B87C4C;
-  }
-  .aboutTshepoSeleke .titletext {
-    opacity: 0;
-    transition-delay: 0.2s;
-    transition-duration: 0.3s;
-
-    }
-    .aboutTshepoSeleke:hover .titletext,
-    .aboutTshepoSeleke:focus .titletext {
-    opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-     width:95%;
-     margin:  auto;
-     height: 700%;
-     color: rgb(219, 215, 212);
-     text-align: center;
-     font-weight: bolder;
-    }
-        /* The about page ends here */
-
-  /* The conatct paage stats here , 
-  contactStatementBeforeTheForm" is a question i used for call to action */
-    .contact{
-    margin-top: -138px;
-    color: #FFE6D6;
-    line-height: 33px;
-    font-weight: lighter;
-    text-align: center;
-    width: 100%;
-
-    }
-    .contactHeading{
-    text-align: center;
-    font-weight: lighter;
-    font-size: 7.8em;
-    }
-    .contactStetementBefroreTheform{
-    margin-top:20px;
-    font-weight: lighter; 
-    font-size: medium; 
-    font-size: 4.3em;
-    text-align: center; 
-    }
-    form{
-      line-height: 300px;
-    }
-    input{
-      height: 130px;
-      width: 750px;
-      font-size: 3.3em;
-    }
-    textarea{
-      height: 200px;
-      width: 250px;
-      font-size: 2.3em;
-
-    }
-    button{
-      font-size: 2.8em;
-      height: 60px;
-      width: 190px;
-    }
-/* The contact page endes */
-
-
-    /* Thefooter starts here also included in the grig of this webpage */
-.footer{
-    margin-top: 200px;
-    background-color: #E89965;
-    color: #FFE6D6;
-    grid-column: 1 / -1;
-    grid-row: 40 / -1;
-    text-decoration: none;
-    font-size: 7.8em;
-    font-weight: lighter;
-    font-stretch: ultra-condensed;
-    text-align: center;
-    
-}
-.letsGetSocial{
-  font-weight: lighter; 
-  font-size: 0.5em; 
-  text-align: center;
-}
-.websiteBelongsTo{
-  font-weight: lighter; 
-  font-size: 0.5em; 
-  text-align: center;
-}
-
-}
+   
